@@ -33,104 +33,100 @@
         <div class="body">
             <div class="cell">
                 <div class="col">
-                    <div class="cell panel">
-                        <div class="body">
-                            <div class="cell">
-                                <div class="col">
-                                    <div class="cell">
-                                        <div class="tabs">
-                                            <ul class="nav">
-                                                <li class=""><a href="#" class="">Normal item</a></li>
-                                                <li class="active"><a href="#">Active item</a></li>
-                                                <li class="disabled">Disabled item</li>
-                                                <li class=""><a href="#" class="">Another normal item</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                    <div class="cell">
+                        <div class="tabs">
+                            <ul class="nav">
+                                <li class=""><a href="#" class="">Normal item</a></li>
+                                <li class="active"><a href="#">Active item</a></li>
+                                <li class="disabled">Disabled item</li>
+                                <li class=""><a href="#" class="">Another normal item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cell">
+                        <div class="tabs">
+                            <ul class="bottom nav">
+                                <li class=""><a href="#" class="">Normal item</a></li>
+                                <li class="active"><a href="#">Active item</a></li>
+                                <li class="disabled">Disabled item</li>
+                                <li class=""><a href="#" class="">Another normal item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col width-1of2">
+                    <div class="cell">
+                        <div class="tabs">
+                            <ul class="left nav">
+                                <li class=""><a href="#" class="">Normal item</a></li>
+                                <li class="active"><a href="#" class="">Active item</a></li>
+                                <li class="disabled">Disabled item</li>
+                                <li class=""><a href="#" class="">Another normal item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col width-fill">
+                    <div class="cell">
+                        <div class="tabs">
+                            <ul class="right nav">
+                                <li><a href="#">Normal item</a></li>
+                                <li class="active"><a href="#">Active item</a></li>
+                                <li class="disabled">Disabled item</li>
+                                <li class=""><a href="#" class="">Another normal item</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="cell panel">
+        <div class="body">
+            <div class="cell tab-block top-nav">
+                <div class="cell">
+                    <div class="tabs">
+                        <ul class="nav">
+                            <li class="active"><a href="#tabcontent1level1" class="">Item one level one</a></li>
+                            <li class=""><a href="#tabcontent2level1" class="">Item two level one</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="cell visible tab-block top-nav" id="tabcontent1level1">
+                            <div class="tabs">
+                                <ul class="nav">
+                                    <li class="active"><a href="#tabcontent1level2" class="">Item one level two</a></li>
+                                    <li class=""><a href="#tabcontent2level2" class="">Item two level two</a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-content">
+                                <div class="cell" id="tabcontent1level2">
+                                    Content of item two at level one.
                                 </div>
-                                <div class="col">
-                                    <div class="cell">
-                                        <div class="tabs">
-                                            <ul class="bottom nav">
-                                                <li class=""><a href="#" class="">Normal item</a></li>
-                                                <li class="active"><a href="#">Active item</a></li>
-                                                <li class="disabled">Disabled item</li>
-                                                <li class=""><a href="#" class="">Another normal item</a></li>
-                                            </ul>
-                                        </div>
+                                <div class="cell tab-block top-nav hidden-tab" id="tabcontent2level2">
+                                    <div class="tabs">
+                                        <ul class="nav">
+                                            <li class=""><a href="#tabcontent1level3" class="">Item one level three</a></li>
+                                            <li class="active"><a href="#tabcontent2level3" class="">Item two level three</a></li>
+                                        </ul>
                                     </div>
-                                </div>
-                                <div class="col width-1of2">
-                                    <div class="cell">
-                                        <div class="tabs">
-                                            <ul class="left nav">
-                                                <li class=""><a href="#" class="">Normal item</a></li>
-                                                <li class="active"><a href="#" class="">Active item</a></li>
-                                                <li class="disabled">Disabled item</li>
-                                                <li class=""><a href="#" class="">Another normal item</a></li>
-                                            </ul>
+                                    <div class="tab-content">
+                                        <div class="cell hidden-tab" id="tabcontent1level3">
+                                            Content of item one at level three.
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col width-fill">
-                                    <div class="cell">
-                                        <div class="tabs">
-                                            <ul class="right nav">
-                                                <li><a href="#">Normal item</a></li>
-                                                <li class="active"><a href="#">Active item</a></li>
-                                                <li class="disabled">Disabled item</li>
-                                                <li class=""><a href="#" class="">Another normal item</a></li>
-                                            </ul>
+                                        <div class="cell" id="tabcontent2level3">
+                                            Content of item two at level three.
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="cell tab-block top-nav">
-                        <div class="cell">
-                            <div class="tabs">
-                                <ul class="nav">
-                                    <li class="active"><a href="#tabcontent1level1" class="">Item one level one</a></li>
-                                    <li class=""><a href="#tabcontent2level1" class="">Item two level one</a></li>
-                                </ul>
-                            </div>
-                            <div class="tab-content">
-                                <div class="cell visible tab-block top-nav" id="tabcontent1level1">
-                                    <div class="tabs">
-                                        <ul class="nav">
-                                            <li class="active"><a href="#tabcontent1level2" class="">Item one level two</a></li>
-                                            <li class=""><a href="#tabcontent2level2" class="">Item two level two</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="tab-content">
-                                        <div class="cell" id="tabcontent1level2">
-                                            Content of item two at level one.
-                                        </div>
-                                        <div class="cell tab-block top-nav hidden-tab" id="tabcontent2level2">
-                                            <div class="tabs">
-                                                <ul class="nav">
-                                                    <li class=""><a href="#tabcontent1level3" class="">Item one level three</a></li>
-                                                    <li class="active"><a href="#tabcontent2level3" class="">Item two level three</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="tab-content">
-                                                <div class="cell hidden-tab" id="tabcontent1level3">
-                                                    Content of item one at level three.
-                                                </div>
-                                                <div class="cell" id="tabcontent2level3">
-                                                    Content of item two at level three.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cell hidden-tab" id="tabcontent2level1">
-                                    Content of item two at level one.
-                                </div>
-                            </div>
+                        <div class="cell hidden-tab" id="tabcontent2level1">
+                            Content of item two at level one.
                         </div>
                     </div>
                 </div>
@@ -372,8 +368,7 @@
             </div>
         </div>
     </div>
-</div>
-<div class="col">
+</div><div class="col">
 <div class="cell panel">
 <div class="body">
 <div class="cell">
@@ -381,15 +376,15 @@
     <div class="cell menu-tabs tab-block">
         <div class="tabs">
             <ul class="nav">
-                <li class="active"><a href="#tab1" class="">Item one</a></li>
+                <li class=""><a href="#tab1" class="">Item one</a></li>
                 <li class=""><a href="#tab2" class="">Item two</a></li>
-                <li class=""><a href="#tab3" class="">Item three</a></li>
+                <li class="active"><a href="#tab3" class="">Item three</a></li>
                 <li class=""><a href="#tab4" class="">Item four</a></li>
                 <li class=""><a href="#tab5" class="">Item five</a></li>
             </ul>
         </div>
         <div class="tab-content">
-            <div class="menu" id="tab1">
+            <div class="menu hidden-tab" id="tab1">
                 <ul class="nav">
                     <li class="active"><a href="#" class="">Subitem one</a></li>
                     <li class=""><a href="#" class="">Subitem two</a></li>
@@ -402,7 +397,7 @@
                     <li class=""><a href="#" class="">Subitem five</a></li>
                 </ul>
             </div>
-            <div class="menu hidden-tab" id="tab3">
+            <div class="menu" id="tab3">
                 <ul class="nav">
                     <li class="active"><a href="#" class="">Subitem six</a></li>
                     <li class=""><a href="#" class="">Subitem seven</a></li>
@@ -426,7 +421,7 @@
 <div class="col">
     <div class="cell tab-block top-nav">
         <div class="col">
-            <div class="tabs size3of5">
+            <div class="tabs width-3of5">
                 <ul class="nav">
                     <li class="active"><a href="#tab_content1" class="">Item one</a></li>
                     <li class=""><a href="#tab_content2" class="">Item two</a></li>
@@ -468,18 +463,18 @@
                     <div class="gallery cell" id="tabcontent31">
                         <h3>Photos</h3>
                         <ul class="nav">
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li class=""><img src="http://cascade-framework.com/assets/img/100x100.gif" class=""></li>
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li class=""><img src="http://cascade-framework.com/assets/img/100x100.gif" class=""></li>
-                            <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                            <li class=""><img src="http://cascade-framework.com/assets/img/100x100.gif" class=""></li>
-                            <li class=""><img src="http://cascade-framework.com/assets/img/100x100.gif" class=""></li>
+                            <li class=""><img src="http://www.cascade-framework.com/assets/img/100x100.gif" class=""></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li class=""><img src="http://www.cascade-framework.com/assets/img/100x100.gif" class=""></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                            <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
                         </ul>
                     </div>
                     <div class="cell hidden-tab" id="tabcontent32">
@@ -611,18 +606,18 @@
                 <div class="gallery cell" id="tabcontent33">
                     <h3>Photos</h3>
                     <ul class="nav">
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li class=""><img src="http://cascade-framework.com/assets/img/100x100.gif" class=""></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                        <li class=""><img src="http://cascade-framework.com/assets/img/100x100.gif" class=""></li>
-                        <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                        <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
                     </ul>
                 </div>
                 <div class="cell hidden-tab" id="tabcontent34">  <form>
@@ -742,9 +737,9 @@
     <div class="cell tab-block top-nav">
         <div class="tabs">
             <ul class="nav">
-                <li class="active"><a href="#tabcontent35" class="">One panel</a></li>
-                <li class=""><a href="#tabcontent36" class="">Two panels</a></li>
-                <li class=""><a href="#tabcontent37" class="">three panels</a></li>
+                <li class="active"><a href="#tabcontent35">One panel</a></li>
+                <li><a href="#tabcontent36">Two panels</a></li>
+                <li><a href="#tabcontent37">three panels</a></li>
             </ul>
         </div>
         <div class="tab-content">
@@ -752,7 +747,7 @@
                 <div class="header collapse-trigger"><span class="icon icon-collapse"></span><a href="#">Header</a></div>
                 <div class="body collapse-section">
                     <div class="cell">
-                        <p class="no-margin"><img src="http://cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p class="no-margin"><img src="http://www.cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                     </div>
                 </div>
@@ -764,7 +759,7 @@
                         <div class="header collapse-trigger"><span class="icon icon-collapse"></span><a href="#">Header</a></div>
                         <div class="body collapse-section">
                             <div class="cell">
-                                <p class="no-margin"><img src="http://cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p class="no-margin"><img src="http://www.cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                             </div>
                         </div>
@@ -776,7 +771,7 @@
                         <div class="header collapse-trigger"><span class="icon icon-collapse"></span><a href="#">Header</a></div>
                         <div class="body collapse-section">
                             <div class="cell">
-                                <p class="no-margin"><img src="http://cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p class="no-margin"><img src="http://www.cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                             </div>
                         </div>
@@ -790,7 +785,7 @@
                         <div class="header collapse-trigger"><span class="icon icon-collapse"></span><a href="#">Header</a></div>
                         <div class="body collapse-section">
                             <div class="cell">
-                                <p class="no-margin"><img src="http://cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p class="no-margin"><img src="http://www.cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                             </div>
                         </div>
@@ -802,7 +797,7 @@
                         <div class="header collapse-trigger"><span class="icon icon-collapse"></span><a href="#">Header</a></div>
                         <div class="body collapse-section">
                             <div class="cell">
-                                <p class="no-margin"><img src="http://cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p class="no-margin"><img src="http://www.cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                             </div>
                         </div>
@@ -814,7 +809,7 @@
                         <div class="header collapse-trigger"><span class="icon icon-collapse"></span><a href="#">Header</a></div>
                         <div class="body collapse-section">
                             <div class="cell">
-                                <p class="no-margin"><img src="http://cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p class="no-margin"><img src="http://www.cascade-framework.com/assets/img/stats.gif" class="top-left-image">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                             </div>
                         </div>
@@ -829,9 +824,9 @@
 <div class="cell tab-block top-nav">
 <div class="tabs">
     <ul class="nav">
-        <li class="active"><a href="#tabcontent38" class="">Datasheet</a></li>
-        <li class=""><a href="#tabcontent39" class="">Regular table</a></li>
-        <li class=""><a href="#tabcontent40" class="">More info</a></li>
+        <li class="active"><a href="#tabcontent38">Datasheet</a></li>
+        <li><a href="#tabcontent39">Regular table</a></li>
+        <li><a href="#tabcontent40">More info</a></li>
     </ul>
 </div>
 <div class="tab-content">
@@ -926,7 +921,7 @@
         </tbody>
     </table>
 </div>
-<div class="cell tab-block top-nav hidden-tab" id="tabcontent40">
+<div class="cell hidden-tab tab-block top-nav" id="tabcontent40">
     <div class="tabs">
         <ul class="nav">
             <li class="active"><a href="#tabcontent40-sub1">Gallery</a></li>
@@ -937,18 +932,18 @@
         <div class="gallery cell" id="tabcontent40-sub1">
             <h3>Photos</h3>
             <ul class="nav">
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
-                <li><img src="http://cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
+                <li><img src="http://www.cascade-framework.com/assets/img/100x100.gif"></li>
             </ul>
         </div>
         <div class="cell hidden-tab" id="tabcontent40-sub2">  <form>
