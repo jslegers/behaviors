@@ -1,8 +1,8 @@
 # Cascade Framework - Behaviors
 
-   A demo of JS behaviors in Cascade Framework.
+JS behaviors in Cascade Framework.
 
-    For a live demo, go to [http://jslegers.github.io/behaviors/](http://jslegers.github.io/behaviors/).
+Demo : [http://jslegers.github.io/behaviors/](http://jslegers.github.io/behaviors/).
 
    Copyright (c) 2013 John Slegers
 
