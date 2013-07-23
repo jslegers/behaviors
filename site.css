@@ -1,0 +1,19 @@
+
+.site-header {
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-right-radius: 8px;
+}
+
+.icon-collapse:before {
+    content: "\25BC";
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.collapsed .icon-collapse:before {
+    content: "\25B6";
+}
