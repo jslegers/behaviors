@@ -1,3 +1,5 @@
+[![endorse](https://api.coderwall.com/johnslegers/endorsecount.png)](https://coderwall.com/johnslegers)
+
 # Cascade Framework - Behaviors
 
 JS behaviors in Cascade Framework.
@@ -26,6 +28,3 @@ Demo : [http://jslegers.github.io/behaviors/](http://jslegers.github.io/behavior
    WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
    OTHER DEALINGS IN THE SOFTWARE.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jslegers/behaviors/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
